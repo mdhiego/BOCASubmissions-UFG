@@ -2,14 +2,14 @@
 
 void main()
 {
-    int number, soma, i;
+    int num, sum, i;
 
-    for(i=soma=0; i<4; i++)
+    for(i = sum = 0; i < 4; i++)
     {
-        scanf("%d", &number);
-        if(number<=30)
-            soma += number;
+        scanf("%d", &num);
+        if(num <= 30)
+            sum += num;
     }
 
-    printf("%d\n", soma);
+    printf("%d\n", sum);
 }

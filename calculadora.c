@@ -9,12 +9,12 @@ void main()
     while(1)
     {
         scanf(" %c", &simbol);
-        if(simbol=='=')
+        if(simbol == '=')
             break;
         scanf(" %d", &num);
-        if(simbol=='+')
+        if(simbol == '+')
             sum += num;
-        else if(simbol=='-')
+        else if(simbol == '-')
             sum -= num;
     }
 

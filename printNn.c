@@ -6,6 +6,6 @@ void main()
 
     scanf("%d%d", &num, &amount);
 
-    for(i=0; i<amount; i++)
+    for(i = 0; i < amount; i++)
         printf("%d\n", num);
 }

@@ -6,15 +6,36 @@ void main()
 
     scanf("%d", &num);
 
-    if(num==1 || num==2 || num==3 || num==4)
-        printf("Grupo A");
-    else if(num==5 || num==6 || num==7 || num==8 || num==9 || num==10)
+    switch (num)
     {
-        printf("Grupo B");
-        if(num==9 || num==10)
-            printf(", Grupo C");
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+            printf("Grupo A");
+            break;
+        case 5:
+        case 6:
+        case 7:
+        case 8:
+        case 9:
+        case 10:
+            printf("Grupo B");
+            switch (num)
+            {
+                case 9:
+                case 10:
+                    printf(", Grupo C");
+                default:
+                    break;
+            }
+            break;
+        case 11:
+        case 12:
+            printf("Grupo C");
+            break;
+        default:
+            break;
     }
-    else if(num==9 || num==10 || num==11 || num==12)
-        printf("Grupo C");
     printf("\n");
 }

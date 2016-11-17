@@ -2,13 +2,13 @@
 
 void main()
 {
-    int number[4], soma, i;
+    int num[4], sum, i;
 
-    for(i=soma=0; i<4; i++)
+    for(i = sum = 0; i < 4; i++)
     {
-        scanf("%d", &number[i]);
-        soma += number[i];
+        scanf("%d", &num[i]);
+        sum += num[i];
     }
 
-    printf("%d\n", soma);
+    printf("%d\n", sum);
 }

@@ -15,7 +15,7 @@ void main()
 			printf("N\n");
 			break;
 		}
-		else if(i == n-1)
+		else if(i == n - 1)
 			printf("%d\n", raz);
 	}
 }

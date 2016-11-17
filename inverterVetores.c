@@ -8,6 +8,7 @@ void main()
 	for (i = 0; i < num; i ++)
 		for (j = 0; j < 10; j++)
 			scanf("%d", &vector[i][j]);
+	
 	for (i = 0; i < num; i ++)
 	{
 		for (j = 9; j > 0; j--)

@@ -7,6 +7,6 @@ void main()
 
     scanf("%c%d", &caractere, &amount);
 
-    for(i=0; i<amount; i++)
+    for(i = 0; i < amount; i++)
         printf("%c\n", caractere);
 }

@@ -11,5 +11,5 @@ void main()
 		scanf("%d %d", &numStudent, &amountSnack);
 		totalSnack += amountSnack;
 	}
-	printf("%d g\n", (numSt-1)*250-totalSnack);
+	printf("%d g\n", (numSt - 1) * 250 - totalSnack);
 }

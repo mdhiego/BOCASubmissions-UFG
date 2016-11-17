@@ -6,6 +6,6 @@ void main()
 
     scanf("%d", &num);
 
-    for(i=0; i<2000; i++)
+    for(i = 0; i < 2000; i++)
         printf("%d\n", num);
 }

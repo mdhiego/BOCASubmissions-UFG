@@ -2,13 +2,13 @@
 
 void main()
 {
-    float num, donation=0;
+    float num, donation = 0;
 
     scanf("%f", &num);
     while(num)
     {
-        if(num>5 && num<1000)
-            donation+=num/10;
+        if(num > 5 && num < 1000)
+            donation += num / 10;
         scanf("%f", &num);
     }
 

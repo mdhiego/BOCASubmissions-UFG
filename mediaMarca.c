@@ -24,8 +24,8 @@ void main()
 		}
 		scanf(" %c %f", &mark, &price);
 	}
-	if (totalPriceA/countA <= totalPriceB/countB)
-		printf("A %.2f\n", totalPriceA/countA);
+	if (totalPriceA/countA <= totalPriceB / countB)
+		printf("A %.2f\n", totalPriceA / countA);
 	else
-		printf("B %.2f\n", totalPriceB/countB);
+		printf("B %.2f\n", totalPriceB / countB);
 }

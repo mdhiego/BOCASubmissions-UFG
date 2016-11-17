@@ -3,16 +3,20 @@
 
 void main()
 {
-    int num, i, j;
-    char str0[20], str1[20], out[100];
+	int N, i;
+	char str[100][20];
 
-    scanf("%d", &num);
-    for(i=0; i<num; i++)
-    {
-        scanf("%s%s", str0, str1);
-        if(strcmp(str0, str1))
-            printf("diferentes\n");
-        else
-            printf("iguais\n");
-    }
+	scanf("%d", &N);
+	for (i = 0; i < N; i++)
+	{
+		scanf(" %s", &str[i]);
+	}
+
+	for (i = 0; i < N; i+=2)
+	{
+		if (strcmp(str[i], str[i + 1]) == 0)
+			printf("iguais\n");
+		else
+			printf("diferentes\n");
+	}
 }

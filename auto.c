@@ -7,7 +7,7 @@ void main()
 
 	scanf("%d", &N);
 	for (i = 0; i < N; i++)
-			scanf(" %c", &code[i]);
+		scanf(" %c", &code[i]);
 	for (i = out = 0; i < N; i++)
 		switch (code[i])
 		{

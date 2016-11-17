@@ -1,19 +1,26 @@
 #include <stdio.h>
+#include <string.h>
 
 void main()
 {
-	int i, j;
-	char word1[100], word2, result[50];
+	int i;
+	char str[100][20];
 
-	scanf(" %s%s", &word1, &word2);
-	for (i = 0; word1 != '0' && word2 != '0'; i++)
+	for (i = 0; ; i++)
 	{
-		if (word1 == "carro" && word2 == "carro")
-			result[i] = "sim";
-		else
-			result[i] = "nao";
-		scanf(" %s%s", &word1, &word2);
+		scanf(" %s", &str[i]);
+		if (strcmp(str[i], "0") == 0)
+			break;
 	}
-	for (j = 0; j < i ; j++)
-		printf("%s\n", result[j]);
+
+	int N = i;
+
+	for (i = 0; i < N; i += 2)
+	{
+		if (strcmp(str[i], "carro") == 0 &&
+			strcmp(str[i + 1], "carro") == 0)
+			printf("sim\n");
+		else
+			printf("nao\n");
+	}
 }

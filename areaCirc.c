@@ -7,6 +7,6 @@ void main()
     float R, area;
 
     scanf("%f", &R);
-    area = PI*R*R;
+    area = PI * R * R;
     printf("AREA = %.3f\n", area);
 }

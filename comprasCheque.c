@@ -2,7 +2,7 @@
 
 void main()
 {
-    float num, sum=0;
+    float num, sum = 0;
 
     scanf("%f", &num);
     while(num)

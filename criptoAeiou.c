@@ -8,7 +8,6 @@ void main()
 
 	scanf("%s", &word);
 	for (i = 0; i < strlen(word); i++)
-	{
 		switch (word[i])
 		{
 		case 'a':
@@ -27,6 +26,5 @@ void main()
 			printf("6");
 			break;
 		}
-	}
 	printf("\n");
 }
